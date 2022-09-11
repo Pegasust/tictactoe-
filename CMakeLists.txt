@@ -17,6 +17,7 @@ target_link_libraries(QtBoilerplate PUBLIC Qt5::Core Qt5::Widgets)
 target_compile_definitions(QtBoilerplate PRIVATE RES_FOLDER="${CMAKE_BINARY_DIR}/resources/")
 
 add_library(Catch2 INTERFACE)
+# CHANGE Catch2 installation directory here!
 target_include_directories(Catch2 INTERFACE "../common/include")
 
 add_executable(BoilerplateTest test.cpp)
