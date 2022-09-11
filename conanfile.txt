@@ -1,0 +1,7 @@
+# Uses conan to manage packages
+[requires]
+catch2/2.13.8
+# qt/5.14.1@bincrafters/stable
+
+[generators]
+cmake_find_package_multi
